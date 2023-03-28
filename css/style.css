@@ -1,4 +1,3 @@
-
 .list-main-div {
     margin: 2% 0% 4% 3%;
     overflow-x: scroll;
@@ -6,28 +5,84 @@
 
 
 .list-sub-div {
-    
+
     /* display: flex; */
     gap: 20px;
     flex-direction: row;
     width: 107vw;
     padding-right: 3%;
-   
-  
+
+
 }
 
-.card-section-main-div{
+.card-section-main-div {
     width: 100%;
     height: 600px;
     background-color: #EBEBEB;
 }
 
-
-
-
-
-
-
-h1{
-    background-color: blue;
+.card-main-div {
+    margin: 5% 3%;
 }
+
+
+.header-div {
+    margin: 10% 2%;
+    grid-template-columns: 1fr 1fr;
+    align-items: end;
+}
+
+
+
+.titel-div {
+    display: flex;
+    gap: 5px;
+    align-items: self-start;
+    justify-items: center;
+}
+
+.color-div {
+    background-color: #D21010;
+    border: none;
+    width: 20px;
+    height: 21px;
+    border-radius: 50% 0 0 50%;
+}
+
+.heater-titel {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-count-div {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.counter {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    background-color: #e0e3e5;
+    margin-right: 9px;
+    padding: 4px 12px;
+    border-radius: 5px;
+}
+
+
+
+.card-div {
+    background-color: white;
+    border-radius: 3px;
+    padding: 2% 4%;
+    width: 100%;
+}
+
+
+
+
+/* h1{
+    background-color: blue;
+} */
